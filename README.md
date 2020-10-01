@@ -156,8 +156,6 @@ attribute changes from `Hello, World!` to `Hello, User!`, as the following listi
 ----
 ====
 
-
-
 Notice also how the `id` attribute has changed from `1` to `2`. This proves that you are
 working against the same `GreetingController` instance across multiple requests and that
 its `counter` field is being incremented on each call as expected.
