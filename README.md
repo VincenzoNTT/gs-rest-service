@@ -164,6 +164,6 @@ its `counter` field is being incremented on each call as expected.
 
 Congratulations! You have just developed a RESTful web service with Spring.
 
-== See Also
+ 
 
 T 
