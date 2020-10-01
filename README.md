@@ -90,11 +90,7 @@ provide a plain old Java object with fields, constructors, and accessors for the
 include::complete/src/main/java/com/example/restservice/Greeting.java[]
 ----
 
-====
-NOTE: This application uses the https://github.com/FasterXML/jackson[Jackson JSON] library to
-automatically marshal instances of type `Greeting` into JSON. Jackson is included by default by the web starter.
-====
-
+ 
 == Create a Resource Controller
 
 In Spring's approach to building RESTful web services, HTTP requests are handled by a
