@@ -91,15 +91,7 @@ include::complete/src/main/java/com/example/restservice/Greeting.java[]
 ----
 
  
-== Create a Resource Controller
-
-In Spring's approach to building RESTful web services, HTTP requests are handled by a
-controller. These components are identified by the
-https://docs.spring.io/spring/docs/{spring_version}/javadoc-api/org/springframework/web/bind/annotation/RestController.html[`@RestController`]
-annotation, and the `GreetingController` shown in the following listing (from
-`src/main/java/com/example/restservice/GreetingController.java`) handles `GET` requests
-for `/greeting` by returning a new instance of the `Greeting` class:
-
+ 
 ====
 [source,java]
 ----
