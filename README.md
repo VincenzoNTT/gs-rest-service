@@ -1,11 +1,4 @@
-:spring_version: current
-:toc:
-:project_id: gs-rest-service
-:spring_version: current
-:spring_boot_version: 2.3.2.RELEASE
-:icons: font
-:source-highlighter: prettify
-
+ 
 This guide walks you through the process of creating a "`Hello, World`" RESTful web
 service with Spring.
 
