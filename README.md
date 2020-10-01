@@ -55,13 +55,7 @@ include::initial/pom.xml[]
 
 The following listing shows the `build.gradle` file that is created when you choose Gradle:
 
-====
-[source,text]
-----
-include::initial/build.gradle[]
-----
-====
-
+ 
 [[initial]]
 == Create a Resource Representation Class
 
