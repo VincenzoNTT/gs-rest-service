@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.example.restservice.GreetingControllerTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.137 s - in com.example.restservice.GreetingControllerTests
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.721 s <<< FAILURE! - in com.example.restservice.GreetingControllerTests
+noParamGreetingShouldReturnDefaultMessage  Time elapsed: 0.616 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$.content" expected:<Hello, World!> but was:<Hello, World max!>
+	at com.example.restservice.GreetingControllerTests.noParamGreetingShouldReturnDefaultMessage(GreetingControllerTests.java:41)
+
+paramGreetingShouldReturnTailoredMessage  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$.content" expected:<Hello, Spring Community!> but was:<Hello, Spring Community max!>
+	at com.example.restservice.GreetingControllerTests.paramGreetingShouldReturnTailoredMessage(GreetingControllerTests.java:49)
+
