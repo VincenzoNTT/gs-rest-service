@@ -99,11 +99,7 @@ include::complete/src/main/java/com/example/restservice/GreetingController.java[
 ----
 ====
 
-This controller is concise and simple, but there is plenty going on under the hood. We
-break it down step by step.
-
-The `@GetMapping` annotation ensures that HTTP GET requests to `/greeting` are mapped to the `greeting()` method.
-
+ 
 NOTE: There are companion annotations for other HTTP verbs (e.g. `@PostMapping` for POST). There is also a `@RequestMapping` annotation that they all derive from, and can serve as a synonym (e.g. `@RequestMapping(method=GET)`).
 
 `@RequestParam` binds the value of the query string parameter `name` into the `name`
