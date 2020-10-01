@@ -155,10 +155,6 @@ attribute changes from `Hello, World!` to `Hello, User!`, as the following listi
 {"id":2,"content":"Hello, User!"}
 ----
  
-== Summary
-
-Congratulations! You have just developed a RESTful web service with Spring.
-
  
 
 T 
