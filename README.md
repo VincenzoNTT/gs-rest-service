@@ -154,12 +154,7 @@ attribute changes from `Hello, World!` to `Hello, User!`, as the following listi
 ----
 {"id":2,"content":"Hello, User!"}
 ----
-====
-
-Notice also how the `id` attribute has changed from `1` to `2`. This proves that you are
-working against the same `GreetingController` instance across multiple requests and that
-its `counter` field is being incremented on each call as expected.
-
+ 
 == Summary
 
 Congratulations! You have just developed a RESTful web service with Spring.
