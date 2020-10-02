@@ -14,8 +14,12 @@ public class GreetingController {
 
 	@GetMapping("/greeting")
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World Max ..") String name) {
+		return new Greeting(counter.incrementAndGet(), String.format(template, name));
+	}
+	
+	@GetMapping("/quindi")
+	public Greeting quindi(@RequestParam(value = "name", defaultValue = "laura chiama sempre alle 17 di venersi") String name) {
 		
-		 
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
 }
